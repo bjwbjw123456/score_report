@@ -1,0 +1,14 @@
+{
+  "name": "score_generator",
+  "version": "1.0.0",
+  "description": "To get user input and generate a pdf report\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "jiawen bao",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.4"
+  }
+}

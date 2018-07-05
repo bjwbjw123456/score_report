@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+  </head>
+  <body>
+    <h1>Report</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    global: <script>document.write(require('electron').remote.getGlobal('sharedObject').someProperty)</script>,
+
+    <script>
+      // You can also require other files to run in this process
+      require('./report.js')
+    </script>
+  </body>
+</html>
